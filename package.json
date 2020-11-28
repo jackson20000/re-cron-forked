@@ -1,0 +1,34 @@
+{
+  "name": "@sbzen/re-cron",
+  "version": "0.0.8",
+  "description": "Quartz Cron Component - React",
+  "author": "Serhii Bzenko <bzenkosergey@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BzenkoSergey/ng-cron.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BzenkoSergey/ng-cron/issues"
+  },
+  "homepage": "https://bzenkosergey.github.io/ng-cron/react/",
+  "keywords": [
+    "react",
+    "bootstap",
+    "cron",
+    "quartz",
+    "cron builder",
+    "cron generator",
+    "quartz cron"
+  ],
+  "dependencies": {
+    "@sbzen/cron-core": "0.0.4"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "main": "./re-cron.umd.js",
+  "module": "./re-cron.esm.js",
+  "typings": "./index.d.ts"
+}
