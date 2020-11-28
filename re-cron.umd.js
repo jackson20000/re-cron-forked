@@ -1018,7 +1018,7 @@
         }), React.createElement("label", {
           className: this.genClassName(['form-check-label'], ['c-and-option-label']),
           htmlFor: this.genId(cronCore.Mode.AND)
-        }, "Specific hour (choose one or many)")), React.createElement("div", {
+        }, "Choose hour")), React.createElement("div", {
           className: this.genClassName(['row', 'pl-3', 'pt-1'], ['c-and-list'])
         }, this.state.hoursList.map(function (item) {
           return React.createElement("div", {
