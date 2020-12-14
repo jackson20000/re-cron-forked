@@ -1030,7 +1030,7 @@ function (_super) {
         disabled: _this.isDisabled(Mode.AND),
         checked: _this.inSpecificsList(item.value, Mode.AND),
         onChange: function onChange() {
-          return _this.toggleSpecifics2(item.value, Mode.AND);
+          return _this.toggleSpecifics(item.value, Mode.AND);
         }
       }), React.createElement("label", {
         className: _this.genClassName(['form-check-label'], ['c-and-item-label']),
